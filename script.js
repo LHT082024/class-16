@@ -1,3 +1,5 @@
+
+//sjekker om knappen er trykket og caller verdien i tekst elemnetet.
 function addTodo() {
    event.preventDefault();
 
@@ -10,6 +12,12 @@ function addTodo() {
   console.log(newListItems);
 
   newListItems.textContent = taskInput;
+
+//henter ul elmentet
+  const taskList = document.querySelector("#taskList");
+  console.log(taskList);
+
+  newListItems.appendChild(taskList);
 }
 
 const taskButton = document.querySelector("#taskButton");
