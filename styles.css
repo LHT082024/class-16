@@ -9,16 +9,25 @@ Li
 
 
 .main {
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;  
 }
 
+/*.taskInput{
+  display: block;
+} */
+
+.inputLabel{
+  display: flex;
+  flex-direction: column ;
+}
 
 
-
-form {
-    
+.form {
+    display: flex;
 }
 
 
