@@ -8,6 +8,13 @@ Li
 */
 
 
+header{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .main {
   min-height: 100vh;
   display: flex;
@@ -32,9 +39,7 @@ Li
     gap: 30px;
 }
 
-.taskButton {
- 
-}
+
 
 
 

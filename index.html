@@ -21,9 +21,14 @@
     - DOM manipulation that connects step 1-3 
   -->
   
+
+  <!-- body er hva som vises på nettsiden-->
   <body>
 
-    <header></header>
+    <!--overskriften på nettsiden-->
+    <header> <h1>Todolist #slayyy </h1></header>
+
+    <!--main inneholder boksen du skriver i og knappen til todolisten-->
     <main class="main">
       <form class="form">
         <div class="inputLabel">
@@ -39,10 +44,9 @@
       <button id="taskButton" class="taskButton">Add todo</button>
     </form>
 
-      <ul id="taskList"
-      class="taskList">
-        <!--placeholder-->
-        <li class="taskListItem">draw a page</li>
+      <ul id="taskList">
+        <div id="taskListContainer" class="taskListContainer">
+        </div>
       </ul>
     </main>
 
